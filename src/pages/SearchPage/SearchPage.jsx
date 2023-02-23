@@ -54,9 +54,7 @@ export const SearchPage = () => {
             src={searchImg}
             alt=''
             className={styles.searchImg}
-            onClick={() => {
-              setSearch(true)
-            }}
+            onClick={() => setSearch(true)}
           />
         </div>
       </div>
