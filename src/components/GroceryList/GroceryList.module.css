@@ -1,0 +1,30 @@
+.wrapper {
+  margin: 5px 0;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  overflow: scroll;
+  overflow-x:hidden;
+  background-color: rgba(230, 238, 238, 0.684);
+  border-radius: 5px;
+}
+.wrapper::-webkit-scrollbar {
+  padding:  0;
+  border-radius: 5px;
+    width: 3px;
+}
+.wrapper::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 10px #f5bf43;
+  }
+
+.elem {
+  height: 25px;
+  background-color: rgba(177, 174, 174, 0.924);
+  border-radius: 5px;
+  padding: 3px;
+}

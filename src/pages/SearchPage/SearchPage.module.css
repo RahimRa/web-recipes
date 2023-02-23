@@ -1,0 +1,56 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(168, 182, 161);
+  font-weight: 700;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: wheat;
+  height: 10vh;
+  padding: 10px 33% 10px 10px;
+}
+.Input {
+  height: 37px;
+  width: 100%;
+  padding: 0 5px;
+}
+.Input_box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  height: 40px;
+  width: 500px;
+  background-color: white;
+}
+.link {
+  padding: 3px;
+  font-size: 400;
+  font-weight: 700;
+  height: 20px;
+  align-content: center;
+  text-decoration: none;
+  color: rgb(84, 81, 81);
+}
+.link:hover {
+  color: #cd9208;
+}
+
+.homeImg {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+.searchImg {
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+.box{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

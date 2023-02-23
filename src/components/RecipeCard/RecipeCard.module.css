@@ -1,0 +1,29 @@
+.wrapper {
+  margin: 10px;
+  position: relative;
+}
+.img {
+  height: 290px;
+  width: 190px;
+  border-radius: 5px;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.title {
+  position: absolute;
+  left: 5px;
+  bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #cd9208;;
+  cursor: pointer;
+  background-color: rgba(152, 143, 143, 0.544);
+  border-radius: 5px;
+  padding: 5px;
+  overflow: hidden;
+}
+.title:hover{
+  background-color: #cd9208;
+  color: white;
+}

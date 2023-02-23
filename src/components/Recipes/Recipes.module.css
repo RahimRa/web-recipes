@@ -1,0 +1,31 @@
+.wrapper {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  background-color: brown;
+}
+.box {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(17, 16, 16);
+  color: azure;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.box > div {
+  width: 50%;
+}
+.img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+}
+.data {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

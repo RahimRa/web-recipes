@@ -1,0 +1,43 @@
+.wrapper {
+  background-color: wheat;
+  padding: 20px 20px 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  color: white;
+  background-color: #f5af09;
+  height: 60px;
+  width: 170px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: larger;
+}
+.button:hover{
+  background-color: #cd9208;
+}
+.nav{
+  margin-top: auto;
+}
+.name{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(84, 81, 81);
+}
+.img{
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+.auth{
+  padding: 5px;
+  gap: 20px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+.slider_wrap{
+margin: 10px;
+background-color: wheat;
+padding: 5px;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.carousel{
+ cursor: grab;
+}
+
+.inner_carousel{
+  display: flex;
+}

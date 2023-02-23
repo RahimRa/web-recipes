@@ -1,0 +1,50 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recipe {
+  font-weight: 600;
+  width: 900px;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 30px;
+  background-color: wheat;
+  color: black;
+  overflow: hidden;
+}
+.inner_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headline {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name {
+  font-size: 30px;
+}
+.img {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.products_list {
+  min-height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.description {
+  margin-top: 20px;
+  min-height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
